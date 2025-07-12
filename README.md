@@ -1,2 +1,2 @@
-# awesome-video-promptsawesome-ai-prompts
+# awesome-ai-prompts
 awesome-ai-prompts
