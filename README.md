@@ -9,6 +9,8 @@
 
 ## [点击：查看Veo3提示词](https://github.com/songguoxs/awesome-video-prompts)
 
+## [点击：查看其它提示词](#prompt-toc)
+
 ---
 <a id="join_chat"></a>
 ## 关注公众号后，加入群聊《AI技术学习交流群》
