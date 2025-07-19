@@ -5,9 +5,9 @@
 
 这里收集了AI精彩案例和提示词
 
-## [GPT4o提示词](https://github.com/songguoxs/gpt4o-image-prompts)
+## [点击：查看GPT4o提示词](https://github.com/songguoxs/gpt4o-image-prompts)
 
-## [Veo3提示词](https://github.com/songguoxs/awesome-video-prompts)
+## [点击：查看Veo3提示词](https://github.com/songguoxs/awesome-video-prompts)
 
 ---
 <a id="join_chat"></a>
