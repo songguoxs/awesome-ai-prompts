@@ -18,11 +18,11 @@
 ## 📖 案例目录
 *   [案例 1：炫酷可视化网页 ](#prompt-1)
 ---
-<a id="prompt-240"></a>
+<a id="prompt-1"></a>
 ## 案例 1：炫酷可视化网页 (来源 [@歸藏的AI工具箱](https://mp.weixin.qq.com/s/Z-u_DHF2dXGAPUvdav2Pvw))
 
 <div style="display: flex; justify-content: space-between;">
-<img src="./images/240.jpeg" style="width: 98%;">
+<img src="./images/1.png" style="width: 98%;">
 </div>
 
 **提示词：**
