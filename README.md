@@ -15,6 +15,18 @@
 <a id="join_chat"></a>
 ## 关注公众号后，加入群聊《AI技术学习交流群》
 <div style="display: flex; justify-content: space-between;">
+	# Awesome AI Prompts
+
+🎉 欢迎来到AI提示词精选，持续更新中。。。
+
+这里收集了AI精彩案例和提示词
+
+## [点击：查看GPT4o提示词](https://github.com/songguoxs/gpt4o-image-prompts)
+
+## [点击：查看Veo3提示词](https://github.com/songguoxs/awesome-video-prompts)
+
+## [点击：查看其它提示词](#prompt-toc)
+
 <img src="./images/gzh.png" style="width: 48%;">
 </div>
 
