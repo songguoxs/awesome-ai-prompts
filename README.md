@@ -5,6 +5,10 @@
 
 这里收集了AI精彩案例和提示词
 
+## [GPT4o提示词](https://github.com/songguoxs/gpt4o-image-prompts)
+
+## [Veo3提示词](https://github.com/songguoxs/awesome-video-prompts)
+
 ---
 <a id="join_chat"></a>
 ## 关注公众号后，加入群聊《AI技术学习交流群》
