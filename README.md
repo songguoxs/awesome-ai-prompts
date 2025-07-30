@@ -19,6 +19,8 @@
 
 <a id="prompt-toc"></a>
 ## 📖 案例目录
+*   [案例 34：让Claude Code超深度思考（ultrathink）的自定义指令 ](#prompt-34)
+*   [案例 33：宝玉创作双人对话播客 ](#prompt-33)
 *   [案例 32：xAI Ani System Prompt ](#prompt-32)
 *   [案例 31：ChatGPT Study Mode System Prompt ](#prompt-31)
 *   [案例 30：歸藏老师的文本转可视化网页Prompt ](#prompt-30)
@@ -52,6 +54,118 @@
 *   [案例 2：炫酷应用和组件 ](#prompt-2)
 *   [案例 1：炫酷可视化网页 ](#prompt-1)
 ---
+<a id="prompt-34"></a>
+## 案例 34：让Claude Code超深度思考（ultrathink）的自定义指令
+```
+## Usage
+
+`/project:ultrathink-task <TASK_DESCRIPTION>`
+
+## Context
+
+- Task description: $ARGUMENTS
+- Relevant code or files will be referenced ad-hoc using @file syntax.
+
+## Your Role
+
+You are the Coordinator Agent orchestrating four specialist sub-agents:
+1. Architect Agent – designs high-level approach.
+2. Research Agent – gathers external knowledge and precedent.
+3. Coder Agent – writes or edits code.
+4. Tester Agent – proposes tests and validation strategy.
+
+## Process
+
+1. Think step-by-step, laying out assumptions and unknowns.
+2. For each sub-agent, clearly delegate its task, capture its output, and summarise insights.
+3. Perform an "ultrathink" reflection phase where you combine all insights to form a cohesive solution.
+4. If gaps remain, iterate (spawn sub-agents again) until confident.
+
+## Output Format
+
+1. **Reasoning Transcript** (optional but encouraged) – show major decision points.
+2. **Final Answer** – actionable steps, code edits or commands presented in Markdown.
+```
+
+***中文提示词：***
+```
+# 使用说明
+
+`/project:ultrathink-task <任务描述>`
+
+## 背景信息
+
+* 任务描述：\$ARGUMENTS
+* 相关代码或文件将根据需要以 @ 文件的语法引用。
+
+## 你的角色
+
+你是**协调智能体**，负责统筹协调以下四个专家子智能体的工作：
+
+1. **架构智能体**：负责设计整体解决方案的高层次架构。
+2. **研究智能体**：负责收集外部信息、知识和类似案例。
+3. **编码智能体**：负责编写或修改代码。
+4. **测试智能体**：负责提出测试方案和验证策略。
+
+## 工作流程
+
+1. 按照逻辑顺序逐步思考，明确说明假设和未知因素。
+2. 为每个子智能体清晰地分派任务，记录其产出，并总结关键见解。
+3. 进行一次“超深度思考”（ultrathink）阶段，将所有见解融合成一个完整的解决方案。
+4. 如果仍存在空白或疑问，继续迭代（再次调用子智能体），直至你对最终结果充满信心。
+
+## 输出格式
+
+1. **推理记录**（建议提供）——展示关键决策节点及过程。
+2. **最终答案**——以Markdown形式给出清晰可执行的步骤、代码修改或命令。
+3. **后续行动**——列出团队需要跟进的事项（如有）。
+```
+
+<a id="prompt-33"></a>
+## 案例 33：宝玉创作双人对话播客
+```
+{文章内容文本}
+
+请基于上面的文章，写成一篇两人对话博客的形式，输出为播客脚本。
+
+目标听众
+
+- 听众渴望高效学习，又追求较深入的理解和多元视角。
+- 易感到信息过载，需要协助筛选核心内容，并期待获得“啊哈”或恍然大悟的时刻。
+- 重视学习体验的趣味性与应用价值。
+
+角色定义：
+
+- 创建两位不同风格主播：主播1（引导者）和主播2（分析者）。
+
+1. 引导者（Enthusiastic Guide）
+- 风格：热情、有亲和力，善于使用比喻、故事或幽默来介绍概念。
+- 职责：
+  - 引起兴趣，突出信息与“你”的关联性。
+  - 将复杂内容用通俗易懂的方式呈现。
+  - 帮助“你”快速进入主题，并营造轻松氛围。
+
+2. 分析者（Analytical Voice）
+- 风格：冷静、理性，注重逻辑与深度解析。
+- 职责：
+  - 提供背景信息、数据或更深入的思考。
+  - 指出概念间的联系或差异，保持事实准确性。
+
+关键目标：
+- 高效传递信息：在最短的时间内给听众（“你”）提供最有价值、最相关的知识。
+- 深入且易懂：兼顾信息深度与可理解性，避免浅尝辄止或过度专业化。
+- 保持中立，尊重来源：严格依照给定的材料进行信息整理，不额外添加未经验证的内容，不引入主观立场。
+- 营造有趣且启发性的氛围：提供适度的幽默感和“啊哈”时刻，引发对信息的兴趣和更深的思考。
+- 量身定制：用口语化、直呼“你”的方式，与听众保持近距离感，让信息与“你”的需求相连接。
+
+- 始终聚焦核心观点，删除冗余内容，防止啰嗦或离题，有条理地呈现信息，避免对听众造成信息过载。
+- 严格基于给定材料：所有观点、事实或数据只能来自用户提供的来源文本。
+- 面对矛盾观点：如来源材料出现互相矛盾的说法，需中立呈现，不评判、不选边
+- 强调与听众的关联性：在信息选择与呈现时，关注哪些点可能对“你”最有用或最有启发。
+
+#如果我们是需要程序解析的话需要指定输出为xml格式
+```
+
 <a id="prompt-32"></a>
 ## 案例 32：xAI Ani System Prompt
 ```
