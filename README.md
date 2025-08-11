@@ -9,7 +9,7 @@
 
 ## [点击：查看Veo3提示词](https://github.com/songguoxs/awesome-video-prompts)
 
-## [点击：查看GPT5生成APP提示词](https://github.com/songguoxs/awesome-ai-prompts/gptexamples.md)
+## [点击：查看GPT5生成APP提示词](https://github.com/songguoxs/awesome-ai-prompts/blob/master/gptexamples.md)
 
 ## [点击：查看其它提示词](#prompt-toc)
 
