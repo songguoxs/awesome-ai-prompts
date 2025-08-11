@@ -2,10 +2,54 @@
 <a id="prompt-toc"></a>
 ## 📖 案例目录
 
-*   [案例 1：炫酷可视化网页 ](#prompt-1)
+*   [案例 44：webcam滤镜游乐场 ](#prompt-44)
+*   [案例 43：天气剧场 ](#prompt-43)
+*   [案例 42：虚拟架子鼓 ](#prompt-42)
+*   [案例 41：打字雨 ](#prompt-41)
+*   [案例 40：trivia知识问答游戏 ](#prompt-40)
+*   [案例 39：迷你看板 ](#prompt-39)
+*   [案例 38：罗马帝国主题井字棋 ](#prompt-38)
+*   [案例 37：茶叶浸泡模拟器 ](#prompt-37)
+*   [案例 36：目标点击挑战 ](#prompt-36)
+*   [案例 35：太阳系探索器 ](#prompt-35)
+*   [案例 34：智能手表产品发布页 ](#prompt-34)
+*   [案例 33：正则表达式实验室 ](#prompt-33)
+*   [案例 32：番茄工作法计时器 ](#prompt-32)
+*   [案例 31：播客主页 ](#prompt-31)
+*   [案例 30：OpenAI.fm风格页面 ](#prompt-30)
+*   [案例 29：在线白板 ](#prompt-29)
+*   [案例 28：在线投票板 ](#prompt-28)
+*   [案例 27：在线学院 ](#prompt-27)
+*   [案例 26：海洋波浪模拟器 ](#prompt-26)
+*   [案例 25：非营利组织影响力报告 ](#prompt-25)
+*   [案例 24：音乐理论训练器 ](#prompt-24)
+*   [案例 23：微习惯追踪器 ](#prompt-23)
+*   [案例 22：数学练习训练 ](#prompt-22)
+*   [案例 21：Markdown转幻灯片工具 ](#prompt-21)
+*   [案例 20：语言学习抽认卡 ](#prompt-20)
+*   [案例 19：动态排版工作室 ](#prompt-19)
+*   [案例 18：交互式世界时钟 ](#prompt-18)
+*   [案例 17：儿童节日贺卡 ](#prompt-17)
+*   [案例 16：健康饮食追踪器 ](#prompt-16)
+*   [案例 15：趣味障碍跳跃游戏 ](#prompt-15)
+*   [案例 14：节日灯光秀 ](#prompt-14)
+*   [案例 13：告别留言板 ](#prompt-13)
+*   [案例 12：掉落水果捕捉游戏 ](#prompt-12)
+*   [案例 11：活动反馈仪表盘 ](#prompt-11)
+*   [案例 10：活动倒计时器 ](#prompt-10)
+*   [案例 9：电子竞技锦标赛landing页 ](#prompt-9)
+*   [案例 8：迷宫逃生游戏 ](#prompt-8)
+*   [案例 7：方程求解工具 ](#prompt-7)
+*   [案例 6：员工技能矩阵 ](#prompt-6)
+*   [案例 5：客户旅程流程图 ](#prompt-5)
+*   [案例 4：客户案例研究 ](#prompt-4)
+*   [案例 3：CSV转图表工具 ](#prompt-3)
+*   [案例 2：公司缩写列表 ](#prompt-2)
+*   [案例 1：颜色匹配挑战游戏 ](#prompt-1)
+
 ---
 <a id="prompt-44"></a>
-
+## 案例 44：webcam滤镜游乐场
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/webcam-filter-playground.png" style="width: 50%;">
 </div>
@@ -20,7 +64,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-43"></a>
-
+## 案例 43：天气剧场
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/weather-theatre.png" style="width: 50%;">
 </div>
@@ -31,7 +75,7 @@ Generate a beautiful React + Canvas “weather theatre” where sliders (cosy, e
 ```
 
 <a id="prompt-42"></a>
-
+## 案例 42：虚拟架子鼓
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/virtual-drum-kit.png" style="width: 50%;">
 </div>
@@ -46,7 +90,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-41"></a>
-
+## 案例 41：打字雨
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/typing-rain.png" style="width: 50%;">
 </div>
@@ -61,7 +105,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-40"></a>
-
+## 案例 40：trivia知识问答游戏
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/trivia-quiz-game.png" style="width: 50%;">
 </div>
@@ -76,7 +120,7 @@ Create a single-page app in a single HTML file that hosts a themed trivia quiz.
 ```
 
 <a id="prompt-39"></a>
-
+## 案例 39：迷你看板
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/tiny-kanban.png" style="width: 50%;">
 </div>
@@ -91,7 +135,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-38"></a>
-
+## 案例 38：罗马帝国主题井字棋
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/tic-tac-toe-game.png" style="width: 50%;">
 </div>
@@ -122,7 +166,7 @@ Requirements:
 ```
 
 <a id="prompt-37"></a>
-
+## 案例 37：茶叶浸泡模拟器
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/tea-dunkability.png" style="width: 50%;">
 </div>
@@ -133,7 +177,7 @@ Generate a React page that simulates tea dunkability for classic biscuits: slide
 ```
 
 <a id="prompt-36"></a>
-
+## 案例 36：目标点击挑战
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/target-clicker.png" style="width: 50%;">
 </div>
@@ -147,7 +191,7 @@ Create a single-page app in a single HTML file for a target clicking challenge.
 ```
 
 <a id="prompt-35"></a>
-
+## 案例 35：太阳系探索器
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/solar-system-explorer.png" style="width: 50%;">
 </div>
@@ -162,7 +206,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-34"></a>
-
+## 案例 34：智能手表产品发布页
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/product-launch-page.png" style="width: 50%;">
 </div>
@@ -177,7 +221,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-33"></a>
-
+## 案例 33：正则表达式实验室
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/regex-lab.png" style="width: 50%;">
 </div>
@@ -193,7 +237,7 @@ Build a single-file regex playground (index.html) with no bundler that helps use
 ```
 
 <a id="prompt-32"></a>
-
+## 案例 32：番茄工作法计时器
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/pomodoro.png" style="width: 50%;">
 </div>
@@ -208,7 +252,7 @@ Create a single-page app in a single HTML file with following requirements:
 ```
 
 <a id="prompt-31"></a>
-
+## 案例 31：播客主页
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/podcast-homepage.png" style="width: 50%;">
 </div>
@@ -223,7 +267,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-30"></a>
-
+## 案例 30：OpenAI.fm风格页面
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/openai-fm-inspired.png" style="width: 50%;">
 </div>
@@ -234,7 +278,7 @@ Create a single-page app in a single HTML file that is inspired by https://opena
 ```
 
 <a id="prompt-29"></a>
-
+## 案例 29：在线白板
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/online-whiteboard.png" style="width: 50%;">
 </div>
@@ -249,7 +293,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-28"></a>
-
+## 案例 28：在线投票板
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/online-poll-board.png" style="width: 50%;">
 </div>
@@ -264,7 +308,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-27"></a>
-
+## 案例 27：在线学院
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/online-course-landing-page.png" style="width: 50%;">
 </div>
@@ -279,7 +323,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-26"></a>
-
+## 案例 26：海洋波浪模拟器
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/ocean-wave-simulation.png" style="width: 50%;">
 </div>
@@ -294,7 +338,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-25"></a>
-
+## 案例 25：非营利组织影响力报告
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/nonprofit-impact-report.png" style="width: 50%;">
 </div>
@@ -309,7 +353,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-24"></a>
-
+## 案例 24：音乐理论训练器
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/music-theory-trainer.png" style="width: 50%;">
 </div>
@@ -324,7 +368,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-23"></a>
-
+## 案例 23：微习惯追踪器
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/micro-habit-tracker.png" style="width: 50%;">
 </div>
@@ -341,7 +385,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-22"></a>
-
+## 案例 22：数学练习训练
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/math-practice-drills.png" style="width: 50%;">
 </div>
@@ -356,7 +400,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-21"></a>
-
+## 案例 21：Markdown转幻灯片工具
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/markdown-to-slides.png" style="width: 50%;">
 </div>
@@ -372,7 +416,7 @@ Create a single-page app in a single HTML file with following requirements:
 ```
 
 <a id="prompt-20"></a>
-
+## 案例 20：语言学习抽认卡
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/language-learning-flashcards.png" style="width: 50%;">
 </div>
@@ -388,7 +432,7 @@ Create a single-page app in a single HTML file for interactive language flashcar
 ```
 
 <a id="prompt-19"></a>
-
+## 案例 19：动态排版工作室
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/kinetic-typography-studio.png" style="width: 50%;">
 </div>
@@ -409,7 +453,7 @@ Responsive, touch + mouse support; no external APIs.
 ```
 
 <a id="prompt-18"></a>
-
+## 案例 18：交互式世界时钟
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/interactive-world-clock.png" style="width: 50%;">
 </div>
@@ -424,7 +468,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-17"></a>
-
+## 案例 17：儿童节日贺卡
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/holiday-card-for-kids.png" style="width: 50%;">
 </div>
@@ -439,7 +483,7 @@ Create a single-page app, in a single HTML file, that demonstrates a warm and fu
 ```
 
 <a id="prompt-16"></a>
-
+## 案例 16：健康饮食追踪器
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/healthy-meal-tracker.png" style="width: 50%;">
 </div>
@@ -454,7 +498,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-15"></a>
-
+## 案例 15：趣味障碍跳跃游戏
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/fun-game.png" style="width: 50%;">
 </div>
@@ -471,7 +515,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-14"></a>
-
+## 案例 14：节日灯光秀
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/festival-lights-show.png" style="width: 50%;">
 </div>
@@ -486,7 +530,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-13"></a>
-
+## 案例 13：告别留言板
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/farewell-message-board.png" style="width: 50%;">
 </div>
@@ -502,7 +546,7 @@ Create a single-page app, in a single HTML file, for a farewell message board wi
 ```
 
 <a id="prompt-12"></a>
-
+## 案例 12：掉落水果捕捉游戏
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/falling-object-catcher.png" style="width: 50%;">
 </div>
@@ -517,7 +561,7 @@ Create a single-page app in a single HTML file for a falling objects game.
 ```
 
 <a id="prompt-11"></a>
-
+## 案例 11：活动反馈仪表盘
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/event-feedback.png" style="width: 50%;">
 </div>
@@ -535,7 +579,7 @@ Create a single-page app in a single HTML file that provides the following featu
 ```
 
 <a id="prompt-10"></a>
-
+## 案例 10：活动倒计时器
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/event-count-down.png" style="width: 50%;">
 </div>
@@ -548,7 +592,7 @@ Create a single-page app in a single HTML file that builds a live event countdow
 ```
 
 <a id="prompt-9"></a>
-
+## 案例 9：电子竞技锦标赛 landing页
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/esports-tournament-landing-page.png" style="width: 50%;">
 </div>
@@ -570,7 +614,7 @@ Performance: lazy-loaded images, prefers-reduced-motion support; clean, modern, 
 ```
 
 <a id="prompt-8"></a>
-
+## 案例 8：迷宫逃生游戏
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/escape-the-maze.png" style="width: 50%;">
 </div>
@@ -585,7 +629,7 @@ Create a single-page app in a single HTML file with following requirements:
 ```
 
 <a id="prompt-7"></a>
-
+## 案例 7：方程求解工具
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/equation-solver-tool.png" style="width: 50%;">
 </div>
@@ -600,7 +644,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-6"></a>
-
+## 案例 6：员工技能矩阵
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/employee-skills-matrix.png" style="width: 50%;">
 </div>
@@ -615,7 +659,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-5"></a>
-
+## 案例 5：客户旅程流程图
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/customer-journey-flow.png" style="width: 50%;">
 </div>
@@ -630,7 +674,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-4"></a>
-
+## 案例 4：客户案例研究
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/case-study-landing-page.png" style="width: 50%;">
 </div>
@@ -645,7 +689,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-3"></a>
-
+## 案例 3：CSV转图表工具
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/csv-to-charts.png" style="width: 50%;">
 </div>
@@ -660,7 +704,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-2"></a>
-
+## 案例 2：公司缩写列表
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/company-acronym-list.png" style="width: 50%;">
 </div>
@@ -675,7 +719,7 @@ Create a single-page app in a single HTML file with the following requirements:
 ```
 
 <a id="prompt-1"></a>
-
+## 案例 1：颜色匹配挑战游戏
 <div style="display: flex; justify-content: space-between;">
 <img src="./images/gpt5/color-match-challenge.png" style="width: 50%;">
 </div>
