@@ -1,7 +1,14 @@
 
 <a id="prompt-toc"></a>
 ## 📖 案例目录
-
+*   [案例 52：手绘农场着陆页 ](#prompt-52)
+*   [案例 51：2D 太空游戏 ](#prompt-51)
+*   [案例 50：音频步进音序器 ](#prompt-50)
+*   [案例 49：咖啡爱好者着陆页 ](#prompt-49)
+*   [案例 48：野兽派风格的开发者平台 ](#prompt-48)
+*   [案例 47：露营装备清单 ](#prompt-47)
+*   [案例 46：云朵绘画师 ](#prompt-46)
+*   [案例 45：自定义二维码生成器 ](#prompt-45)
 *   [案例 44：webcam滤镜游乐场 ](#prompt-44)
 *   [案例 43：天气剧场 ](#prompt-43)
 *   [案例 42：虚拟架子鼓 ](#prompt-42)
@@ -48,6 +55,201 @@
 *   [案例 1：颜色匹配挑战游戏 ](#prompt-1)
 
 ---
+<a id="prompt-52"></a>
+## 案例 52：手绘农场着陆页
+<div style="display: flex; justify-content: space-between;">
+<img src="./images/gpt5/artisan-csa.png" style="width: 50%;">
+</div>
+
+**Prompt：**
+```
+Title: Artisan CSA — Hand-Drawn Farm Landing
+Prompt:
+Create a single-page app, in a single HTML file, for a community-supported agriculture program with a hand-drawn, watercolor aesthetic.
+Visuals: paper texture background, ink-style SVG illustrations, warm serif headings, muted earth-tone palette; gentle parallax on illustrations.  
+Hero: seasonal basket illustration, short pitch, ZIP checker input to confirm delivery area; CTA “Join the harvest.”
+Share: grid of seasonal boxes (Spring/Summer/Fall/Winter) with rollover tooltips listing typical produce; allergen icons.
+Plans: slider for weekly vs bi-weekly; price updates in real time; add-ons (eggs, flowers, bread) with toggles.
+Map: embedded static map image with delivery radius overlay; pickup locations list with distance badges.
+Testimonials: card carousel with farmer portraits drawn as line art.
+FAQ + Contact: accordion with smooth open/close; simple email form; accessibility and keyboard support; fully responsive.
+```
+
+**中文Prompt：**
+```
+创建一个单页应用，整合在一个 HTML 文件中，用于社区支持农业项目，采用手绘水彩风格。
+视觉效果：纸质纹理背景、水墨风格 SVG 插图、温暖的衬线字体标题、柔和的大地色调；插图采用轻微视差效果。
+主视觉区：季节性篮子插图、简短宣传语、用于确认配送区域的邮编查询输入框；行动号召按钮 “加入收获”。
+分享区：季节性礼盒网格（春 / 夏 / 秋 / 冬），带有鼠标悬停提示框，列出典型农产品；过敏原图标。
+方案区：每周与每两周配送的滑块选择；价格实时更新；附加产品（如鸡蛋、鲜花、面包）的切换选项。
+地图区：嵌入带有配送范围覆盖层的静态地图图片；带有距离标识的自提点列表。
+用户评价：带有农民肖像线描画的卡片轮播。
+常见问题 + 联系：带有平滑开合效果的手风琴组件；简单的邮件表单；支持无障碍访问和键盘操作；完全响应式设计。
+```
+
+<a id="prompt-51"></a>
+## 案例 51：2D 太空游戏
+<div style="display: flex; justify-content: space-between;">
+<img src="./images/gpt5/asteroid-game.png" style="width: 50%;">
+</div>
+
+**Prompt：**
+```
+Make a 2d space game, in which I can fly a ship, avoid and blow up asteroids, and dogfight with other computer-controlled AI. Be creative with the design of the ships. Ensure the gameplay works and is fun.
+Output code in a single next.js page.tsx file, which can be pasted directly into a next.js app created by create-next-app, alongside any context or instructions needed to run it.
+```
+
+**中文Prompt：**
+```
+制作一个 2D 太空游戏，玩家可以驾驶飞船，躲避并炸毁小行星，与其他电脑控制的 AI 进行空中缠斗。在飞船设计上要有创意。确保游戏玩法可行且有趣。
+输出代码为单个 Next.js 的 page.tsx 文件，可以直接粘贴到通过 create-next-app 创建的 Next.js 应用中，并附上运行所需的任何上下文或说明。
+```
+
+<a id="prompt-50"></a>
+## 案例 50：音频步进音序器
+<div style="display: flex; justify-content: space-between;">
+<img src="./images/gpt5/audio-step-sequencer.png" style="width: 50%;">
+</div>
+
+**Prompt：**
+```
+Create a single-page app in a single HTML file with following requirements:
+- Name: Audio Step Sequencer
+- Stack: WebAudio API.
+- Goal: 16-step drum grid.
+- Features: Tempo, swing, patterns save/load, export WAV (render simple buffer).
+- The UI should be futuristic and make the play fun!
+```
+
+**中文Prompt：**
+```
+创建一个单页应用，整合在一个 HTML 文件中，要求如下：
+名称：音频步进音序器
+技术栈：WebAudio API
+目标：16 步鼓点网格
+功能：速度调节、摇摆效果、Pattern 保存 / 加载、导出 WAV（渲染简单缓冲区）
+界面应具有未来感，让演奏变得有趣！
+```
+
+<a id="prompt-49"></a>
+## 案例 49：咖啡爱好者着陆页
+<div style="display: flex; justify-content: space-between;">
+<img src="./images/gpt5/espresso.png" style="width: 50%;">
+</div>
+
+**Prompt：**
+```
+Please generate a beautiful, realistic landing page for a service that provides the ultimate coffee enthusiast a $200/month subscription that provides equipment rental and coaching for coffee roasting and creating the ultimate espresso. The target audience is a bay area middle-aged person who might work in tech and is educated, has disposable income, and is passionate about the art and science of coffee. Optimize for conversion for a 6 month signup.
+```
+
+**中文Prompt：**
+```
+请为一项服务生成一个精美、逼真的着陆页，该服务为咖啡爱好者提供每月 200 美元的订阅，包括设备租赁和咖啡烘焙指导，帮助制作极致浓缩咖啡。目标受众是旧金山湾区的中年人，他们可能在科技行业工作，受过良好教育，有可支配收入，并且对咖啡的艺术和科学充满热情。优化 6 个月订阅的转化率。
+```
+
+<a id="prompt-48"></a>
+## 案例 48：野兽派风格的开发者平台
+<div style="display: flex; justify-content: space-between;">
+<img src="./images/gpt5/brutalist-dev-landing-page.png" style="width: 50%;">
+</div>
+
+**Prompt：**
+```
+Title: Brutalist Dev Platform Landing
+Prompt:
+  Build a single HTML file for a brutalist developer platform landing page.
+  Style: monochrome, oversized type, strict 12-col grid, visible outlines, sharp corners; cursor shows grid coordinates.
+  Hero: stark headline, one-line value prop, two CTAs (“Start free”, “Docs”), background = live terminal demo typing a sample API call.
+  Proof: SVG logo wall + light/dark invert toggle.
+  Features: 3 code-snippet cards with tabs (JS/Python/cURL), copy-to-clipboard + tooltip.
+  Pricing: 3-tier table with sticky header, CTAs open signup modal.
+  Footer: keyboard-navigable site map + social links; only SVGs; responsive & fast.
+```
+
+**中文Prompt：**
+```
+提示：
+为野兽派风格的开发者平台创建一个 HTML 文件。
+风格：单色、超大字体、严格的 12 列网格、可见轮廓、尖角；光标显示网格坐标。
+主视觉区：醒目标题、一行价值主张、两个行动号召按钮（“免费开始”、“文档”），背景为实时终端演示，输入示例 API 调用。
+证明区：SVG 徽标墙 + 明暗反转切换。
+功能区：3 个带有标签的代码片段卡片（JS/ Python/cURL），复制到剪贴板 + 提示框。
+定价区：3 级表格，带有粘性表头，行动号召按钮打开注册模态框。
+页脚：可通过键盘导航的网站地图 + 社交链接；仅使用 SVG；响应式且加载迅速。
+```
+
+<a id="prompt-47"></a>
+## 案例 47：露营装备清单
+<div style="display: flex; justify-content: space-between;">
+<img src="./images/gpt5/camping-gear-checklist.png" style="width: 50%;">
+</div>
+
+**Prompt：**
+```
+Create a single-page app in a single HTML file with the following requirements:
+- Name: Camping Gear Checklist
+- Goal: Track gear for camping trips.
+- Features: Checklist items, weight calculator, save lists.
+- The UI should be outdoor-themed.
+```
+
+**中文Prompt：**
+```
+创建一个单页应用，整合在一个 HTML 文件中，要求如下：
+名称：露营装备清单
+目标：跟踪露营旅行的装备
+功能：清单项目、重量计算器、保存清单
+界面应具有户外主题
+```
+
+<a id="prompt-46"></a>
+## 案例 46：云朵绘画师
+<div style="display: flex; justify-content: space-between;">
+<img src="./images/gpt5/cloud-painter.png" style="width: 50%;">
+</div>
+
+**Prompt：**
+```
+Create a single-page app in a single HTML file with the following requirements:
+- Name: Cloud Painter
+- Goal: Paint the sky by drawing clouds with a brush tool; enjoyable for kids.
+- Features: Multiple brush shapes, animated cloud drift, air planes to fly in the sky, save image.
+- The UI should be soft and whimsical.
+```
+
+**中文Prompt：**
+```
+创建一个单页应用，整合在一个 HTML 文件中，要求如下：
+名称：云朵绘画师
+目标：通过画笔工具绘制云朵来描绘天空；适合儿童使用
+功能：多种画笔形状、云朵飘动动画、天空中飞过的飞机、保存图像
+界面应柔和且富有童趣
+```
+
+<a id="prompt-45"></a>
+## 案例 45：自定义二维码生成器
+<div style="display: flex; justify-content: space-between;">
+<img src="./images/gpt5/qr-code-generator.png" style="width: 50%;">
+</div>
+
+**Prompt：**
+```
+Create a single-page app in a single HTML file with the following requirements:
+- Name: Custom QR Code Generator
+- Goal: Generate QR codes from text or URLs.
+- Features: Color customization, download PNG.
+- The UI should be minimal with a large preview.
+```
+
+**中文Prompt：**
+```
+创建一个单页应用，整合在一个 HTML 文件中，要求如下：
+名称：自定义二维码生成器
+目标：从文本或 URL 生成二维码
+功能：颜色自定义、下载 PNG 格式
+界面应简约，带有大型预览区
+```
+
 <a id="prompt-44"></a>
 ## 案例 44：webcam滤镜游乐场
 <div style="display: flex; justify-content: space-between;">
